@@ -79,6 +79,7 @@ interface FailoverIncident {
     recoveredAt?: string;
     durationMs?: number;
     resolved: boolean;
+    version: number;
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────
